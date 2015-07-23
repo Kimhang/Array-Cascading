@@ -6,7 +6,7 @@ use base qw(Exporter);
 use Data::Printer;
 
 our @EXPORT = qw( cascade );
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 
 sub cascade {
     my $arr = shift;
@@ -47,6 +47,7 @@ Array::Cascading - It's new $module
 =head1 DESCRIPTION
 
 Array::Cascading is ...
+
 배열 안의 연속되는 같은 요소들을 묶는 모듈입니다.
 
 =head1 LICENSE
