@@ -52,5 +52,16 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/Kimhang/Array-Cascading/issues"
+      },
+      "homepage" : "https://github.com/Kimhang/Array-Cascading",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/Kimhang/Array-Cascading.git",
+         "web" : "https://github.com/Kimhang/Array-Cascading"
+      }
+   },
    "version" : "0.01"
 }
