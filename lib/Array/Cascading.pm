@@ -40,9 +40,14 @@ Array::Cascading - It's new $module
 
     use Array::Cascading;
 
+    my @arr = ( some_number_or_undef );
+
+    my $results = cascade(\@arr);
+
 =head1 DESCRIPTION
 
 Array::Cascading is ...
+배열 안의 연속되는 같은 요소들을 묶는 모듈입니다.
 
 =head1 LICENSE
 
